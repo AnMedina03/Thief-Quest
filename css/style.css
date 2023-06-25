@@ -348,6 +348,10 @@ ol {
 	color: #b01ba5;
 }
 
+.primary-menu{
+	margin-top: 2rem;
+}
+
 .main-menu {
 	list-style: none;
 	text-align: center;
@@ -989,6 +993,12 @@ ol {
 /* ----------------
   Footer section
 ---------------------*/
+
+
+.footer-img{
+	margin-bottom: 1rem;
+	height: 80%;
+}
 
 .footer-section {
 	text-align: center;
