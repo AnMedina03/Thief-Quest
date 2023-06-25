@@ -70,9 +70,9 @@ $(window).on('load', function() {
 	/*------------------
 		Video Popup
 	--------------------*/
-	$('.video-popup').magnificPopup({
-  		type: 'iframe'
-	});
+	// $('.video-popup').magnificPopup({
+  	// 	type: 'iframe'
+	// });
 
 	$('#stickySidebar').stickySidebar({
 	    topSpacing: 60,
