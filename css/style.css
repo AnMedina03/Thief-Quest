@@ -1387,6 +1387,30 @@ ol {
 }
 
 /* ----------------
+  Reglas section
+---------------------*/
+
+.reglas-item{
+	margin-bottom: 3rem;
+}
+
+.reglas-list{
+	padding-left: 1rem;
+}
+
+.regla-pic img{
+	margin-left: 18vw;
+}
+
+#iguana{
+	display: none;
+}
+
+#ladron{
+	display: none;
+}
+
+/* ----------------
   Review section
 ---------------------*/
 
@@ -1635,6 +1659,11 @@ ol {
 		min-width: 100%;
 		margin-bottom: 30px;
 	}
+
+	.regla-pic img{
+		min-width: 100%;
+		margin-bottom: 30px;
+	}
 	.contact-text {
 		margin-bottom: 50px;
 	}
@@ -1730,6 +1759,11 @@ ol {
 		font-size: 40px;
 	}
 	.review-pic img {
+		min-width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.regla-pic img{
 		min-width: 100%;
 		margin-bottom: 30px;
 	}
