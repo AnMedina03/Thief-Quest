@@ -328,7 +328,7 @@ ol {
 	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 }
 
-.site-logo {
+.site-LogoGame {
 	float: left;
 }
 
@@ -349,7 +349,7 @@ ol {
 }
 
 .primary-menu{
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
 }
 
 .main-menu {
@@ -996,8 +996,9 @@ ol {
 
 
 .footer-img{
-	margin-bottom: 1rem;
-	height: 80%;
+	width: 172px;
+	height: 105px;
+	padding-bottom: 2rem;
 }
 
 .footer-section {
