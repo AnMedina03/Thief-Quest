@@ -86,7 +86,7 @@
 			<div class="site-breadcrumb">
 				<a href="../../../index.html">Inicio</a>  /
 				<a href="../versiones.html">Resumen</a>  /
-				<span>Version 2023-06-14</span>
+				<span>Version 2023-06-19</span>
 			</div>
 		</div>
 	</section>
@@ -101,79 +101,116 @@
 			</div>
 			<div class="row">
 				<div class="col-xl-9 col-lg-8 col-md-7 game-single-content">
-					<div class="gs-meta">2023.06.14  /  en <a href="../versiones.html">Versiones</a></div>
-					<h2 class="gs-title">Revisión de conjunto de reglas - 2023.06.14</h2>
+					<div class="gs-meta">2023.06.19  /  en <a href="../versiones.html">Versiones</a></div>
+					<h2 class="gs-title">Revisión de conjunto de reglas - 2023.06.19</h2>
 					<h4>Diseño de Tablero y elementos de juego:</h4>
 					<div class="game-single-content">
 						<p style="text-align: justify; margin-bottom: 20px;">
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; Añadir colores distintos en cada una las paradas: Norte, Sur, Este, Oeste.<br>
-
+							</svg></i>&nbsp;&nbsp; Se incorporarón los colores en las distintas paradas para que sea más sencillo para los jugadores saber en cuál parada inician.
+							La distribución usada es la siguiente:<br>
+							&nbsp;&nbsp;&nbsp;&nbsp; Color Azul: Paradas en el Norte del tablero<br>
+							&nbsp;&nbsp;&nbsp;&nbsp; Color Amarillo: Paradas en el Este del tablero<br>
+							&nbsp;&nbsp;&nbsp;&nbsp; Color Verde: Paradas en el Sur del tablero<br>
+							&nbsp;&nbsp;&nbsp;&nbsp; Color Naranja: Paradas en el Oeste del tablero<br>
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; En el caso de las paradas grandes del tablero, dividirlas en 2 pequeñas.
+							</svg></i>&nbsp;&nbsp; Por otro lado, se emplearon piezas de cinta con dibujos en ellas para simular a las fichas de los jugadores ladrones, iguanas y el huevo dorado. 
+							En el caso de las cartas de maldición estas se mantienen igual manejandose de forma impresa.
+							Se espera que dentro de poco se realize un diseño digital de estas para poder replicarlas de forma sencilla en los futuros playtestings. 
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; Se incorporó una flecha indicadora al lado de la primera parada en la sección Norte para que los jugadores tengan mejores referencias de donde inciar
+							durante el establecimiento de las diferentes paradas.
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; Se sugiere la creación y uso de una ficha que represente que un jugador fue maldecido por la mini-iguana.
+							
 						</p>
 						<div style="display: flex;justify-content: center; margin: 5vh;">
-							<img src="../../../img/pruebas/prueba1.jpeg" alt="Tablero v1" width="700" height="450">
+							<img src="../../../img/pruebas/prueba2.jpeg" alt="Tablero v1" width="700" height="450">
 							<br>
 						</div>
 						<div class="game-single-content">
 							<p style="text-align: justify; margin-bottom: 20px;">
-							Dichos cambios permitirán identificar de mejor manera a las paradas a lo largo del mapa, a la vez que de le brinda un
-							mejor aspecto al tablero del juego.
+							Dichos cambios permitirán identificar de mejor manera a las paradas a lo largo del mapa y una mejor referencia para los jugadores en las etapas previas al inicio de la primera ronda de juego.
 							</p>
-
 						</div>
 											
 					</div>
-					
-					<h4>Mecánicas de Mini-iguanas:</h4>
+					<h4>Étapas previas al inicio de la primera ronda:</h4>
 					<div class="game-single-content">
 						<p style="text-align: justify; margin-bottom: 20px; "> 
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; El jugador que maneja la iguana también podrá manejar una mini-iguana que se mueve por el campo. Su mecánica principal es chocar con los jugadores para hacer que aparezcan más miniiguanas. El jugador puede conseguir un máximo de tres miniiguanas y solo puede ganar una nueva si choca con un jugador con el que no ha chocado antes. <br>
-
+							</svg></i>&nbsp;&nbsp;  Se determino que la cantidad de jugadores requeridos para jugar el juego varia entre 3 a 5 jugadores.
+							Teniénose como minimo 2 jugadores que sean los ladrones y uno sea la iguana.
+							<br>
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; "(Sugerencia)" Respecto al movimiento de la mini-iguana. Se plantea que esta use un dado tenga dos caras de 0, dos de 1 y dos de 2. <br>
-						
+							</svg></i>&nbsp;&nbsp; Se seguirá el siguiente orden para ubicar los elementos en el mapa: <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;Primero: Orden de turnos entre los jugadores y su posición en las paradas.<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;Segundo: Cantidad de paradas habilitadas.<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;Tercero: Posición de la puerta del hábitat de la iguana <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;Posición: Posición de la iguana en su hábitat.
+							<br>
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; El jugador de la iguana poseerá fichas correspondientes a cada ladrón. Cuando la miniguana choca a un jugador, el jugador de iguana recibe la carta del ladrón al que ha chocado. Una vez chocado, el jugador no puede volver a ser chocado hasta después de 3 rondas.  El ladrón afectado por la miniiguana no puede agarrar el huevo por tres rondas.
+							</svg></i>&nbsp;&nbsp; El jugador que saque el menor número en la elección del orden usando los dados será el jugador que actúe como la iguana.
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp;  El jugador de la iguana realiza el procedimiento de selección de paradas por medio de un dado especial con 4 caras correspondientes 
+							a cada uno de los diferentes colores de las paradas. 
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; La iguana debe empezar tres baldosas alejadas de la puerta (El jugador de la iguana decidirá en que baldosa desea posicionarse siempre y cuando se cumpla la distancia de las 3 baldosas).
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp;  Al igual que la iguana, la mini iguana empezará a moverse desde su hábitat, con la diferencia que esta
+							inicia a moverse desde la puerta. Se plantea el uso de un dado para su movimiento, en donde se le resta uno al valor obtenido por el dado, siendo ese valor 
+							el que se mueve la mini-iguana (Revisar para futuro.)
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp;  Tras preparar todos los elementos del juego, se repartirán 3 baldosas a cada jugador al inicio de cada ronda.
+							
+						</p>
+					<h4>Interacciones de Iguanas y mini-iguanas con jugadores:</h4>
+					<div class="game-single-content">
+						<p style="text-align: justify; margin-bottom: 20px; "> 
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; Si la iguana -junto con sus mini-iguanas- hace que los ladrones vuelvan a las paradas, ella gana.
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; Si el jugador ladrón se topa con la mini-iguana, ellos se enfrentan lanzando los dados, el jugador que saque mayor número de los dados gana. 
+							Si el jugador ladrón gana se salva de ser cazado y no puede ser afectado por la mini-iguana entres rondas.
+							Si la mini-iguana gana se afecta al jugador activándose la maldición.
+							<br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; El jugador de la iguana es responsable de poner las mini-iguanas en el tablero tras chocar a un jugador. 
+							Si el jugador no pone o se olvida de poner la mini-iguana no podrá acceder a estas hasta chocar a un jugador distinto. <br>
+							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
+								<circle cx="8" cy="8" r="8"/>
+							</svg></i>&nbsp;&nbsp; En el escenario de que una mini-iguana se encuentre en la puerta del hábitat y un jugador llega con sus baldosas hacia la puerta.
+							el jugador no se verá afectado por la mecánica de combate de la mini-iguana.
 						</p>
 					</div>
-					<h4>Movimiento del jugador:</h4>
-					<div class="game-single-content">
-						<p style="text-align: justify; margin-bottom: 20px; "> 
-							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
-								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; Si durante el turno del jugador ninguna de sus las baldosas le permiten moverse por el mapa, el jugador puede descartar una baldosa, y tomar una nueva de la baraja. <br>
-	
-							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
-								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; Si un jugador roba el huevo a otro jugado, este tiene 3 rondas de escape en las cuales no puede ser atrapado por el otro ladrón. <br>
-				
-							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
-								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; En el escenario que dos jugadores estén en la misma baldosa y el jugador al que le moverse en su turno está en contacto con un borde del tablero, el jugador que choca puede escoger cualquier otro camino de la baldosa en la que está para moverse. <br>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
-								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; "NOTA ":En el escenario donde un jugador choca con borde del tablero, estando este solo, puede comienzar desde la parada más cercana y si tiene dos cercanas, que en elija donde empezar. <br>
-
-							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
-								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; "NOTA ":Si el jugador vuelva a caer en la puerta,  el jugador puede cambiar la siguiente baldosa. <br>
-					</div>
-
 					<h4>Sugerencias: </h4>
 					<div class="game-single-content">
 						<p style="text-align: justify; margin-bottom: 20px; "> 
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; Se requiere de un elemento que indique el número de rondas que se van jugando, en donde el jugador de la iguana y miniiguanas se quien vaya anotando el número de ronda que se está jugando. <br>
+							</svg></i>&nbsp;&nbsp; Se sugiere analizar el diseño que tendrán los dados de selección de paradas y movimiento de la mini-iguana
+							para evitar sobrecargar al jugador con elementos que pudieran llegar a ser confusos. <br>
 						</p>
 					</div>
 					<h4>Motivo de los cambios: </h4>
@@ -181,13 +218,13 @@
 						<p style="text-align: justify; margin-bottom: 20px; "> 
 							<svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="#212529" class="bi bi-circle-fill" viewBox="0 0 16 16">
 								<circle cx="8" cy="8" r="8"/>
-							</svg></i>&nbsp;&nbsp; Dichos cambios se realizaron con el fin de ajustar ciertas mecánicas respecto al movimiento de los jugadores puesto 
-							las primeras veces que se realizaron las pruebas entre el equipo de trabajo habían ciertas situaciones en las que no se sabía cuál era el paso 
-							a seguir; por ejemplo, la situación cuando 2 jugadores chocan con un borde, que ocurre cuando no se posee una baldosa que permita generar un camino; 
-							o inclusive las interacciones entre los jugadores -considerando si estos tenian el huevo o no. Asimismo, se optó por incluir la mecánica de la mini-iguana,
-							en donde el jugador de la iguana ya no tendrá que esperar varias rondas sin poder jugar hasta que roben el huevo, sino que ahora podrá cazar a los ladrones
-							en busca de retrasar su avance y complicando el juego para ellos. De este modo se lograron mejorar los aspectos de movilidad e intercción entre los jugadores ladrones 
-							y el jugador de la iguana.<br>
+							</svg></i>&nbsp;&nbsp; Los cambios realizados fueron realizados para ajustar ciertas cuestiones de diseño del tablero, 
+							de modo que empezar con la primera ronda pueda ser más sencillo y no genere confusión respecto en cuestiones como dónde se debe empezar a moverse
+							, cuántas paradas fueron habilitadas y demás. Por otro lado, los ajustes referentes a las interacciones de las mini-iguanas con los otros jugadores
+							se realizaron puesto que se requería ajustar como las mini-iguanas iban a actuar cuando encuentren a los jugadores -mediante el sistema de combate- proveyendo
+							de un modo en el que la mini-iguana fuera una amenaza pero brindarle chances a los ladrones de defenderse puesto que no habían mecánicas de este estilo antes en 
+							la revisión anterior, a la vez se ajusto su movimiento por medio del dado para que de esta forma las mini-iguanas no alcancen a los ladrones con tanta facilidad.
+							detalles de su movimiento <br>
 						</p>
 					</div>
 					<div class="geme-social-share pt-5 d-flex">
@@ -199,30 +236,31 @@
 						<a href="#"><i class="fa fa-behance"></i></a>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-4 col-md-5 sidebar game-page-sideber">
-					<div id="stickySidebar">
-						<div class="widget-item">
-							<div class="rating-widget">
-								<h4 class="widget-title">Ratings</h4>
-								<ul>
-									<li>Price<span>3.5/5</span></li>
-									<li>Graphics<span>4.5/5</span></li>
-									<li>Levels<span>3.5/5</span></li>
-									<li>Levels<span>4.5/5</span></li>
-									<li>Dificulty<span>4.5/5</span></li>
-								</ul>
-								<div class="rating">
-									<h5><i>Rating</i><span>4.5</span> / 5</h5>
-								</div>
+				
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-5 sidebar game-page-sideber">
+				<div id="stickySidebar">
+					<div class="widget-item">
+						<div class="rating-widget">
+							<h4 class="widget-title">Ratings</h4>
+							<ul>
+								<li>Price<span>3.5/5</span></li>
+								<li>Graphics<span>4.5/5</span></li>
+								<li>Levels<span>3.5/5</span></li>
+								<li>Levels<span>4.5/5</span></li>
+								<li>Dificulty<span>4.5/5</span></li>
+							</ul>
+							<div class="rating">
+								<h5><i>Rating</i><span>4.5</span> / 5</h5>
 							</div>
 						</div>
-						<div class="widget-item">
-							<div class="testimonials-widget">
-								<h4 class="widget-title">Testimonials</h4>
-								<div class="testim-text">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo re magna aliqua. Quis ipsum suspend isse ultrices.</p>
-									<h6><span>James Smith,</span>Gamer</h6>
-								</div>
+					</div>
+					<div class="widget-item">
+						<div class="testimonials-widget">
+							<h4 class="widget-title">Testimonials</h4>
+							<div class="testim-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolo re magna aliqua. Quis ipsum suspend isse ultrices.</p>
+								<h6><span>James Smith,</span>Gamer</h6>
 							</div>
 						</div>
 					</div>
