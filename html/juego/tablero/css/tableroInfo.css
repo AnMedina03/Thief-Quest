@@ -1,0 +1,65 @@
+.accordion-item a {
+    color: wheat;
+    font-size: 1rem !important;
+    transition: color 400ms ease;
+}
+
+.accordion-item a span.doc-link {
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.accordion-item a.doc-link:hover {
+    color: #b6b6b6;
+}
+
+h3 {
+    color: white;
+}
+
+.video-text:after {
+    left: 0px !important;
+}
+
+.video-tutorial-section {
+    height: 30rem;
+    position: relative;
+}
+
+.video-tutorial-play-btn {
+    position: absolute;
+    left: calc(50% - 61px);
+    top: calc(50% - 61px);
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.16);
+
+    transition: width 400ms ease, height 400ms ease, left 400ms ease-in, top 400ms ease-in;
+}
+
+.video-tutorial-play-btn:hover {
+    left: calc(50% - 65px);
+    top: calc(50% - 65px);
+    width: 8rem;
+    height: 8rem;
+}
+
+p, li { 
+    color: white;
+    font-size: 1rem;
+}
+
+.tablero-info {
+    background-color: rgba(136, 38, 145, 0.512);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.piezas-tablero-info, .tablero-info-detalles {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
