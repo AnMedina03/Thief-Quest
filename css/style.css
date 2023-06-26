@@ -328,7 +328,7 @@ ol {
 	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 }
 
-.site-logo {
+.site-LogoGame {
 	float: left;
 }
 
@@ -346,6 +346,10 @@ ol {
 
 .user-panel a:hover {
 	color: #b01ba5;
+}
+
+.primary-menu{
+	/* margin-top: 2rem; */
 }
 
 .main-menu {
@@ -990,6 +994,13 @@ ol {
   Footer section
 ---------------------*/
 
+
+.footer-img{
+	width: 172px;
+	height: 105px;
+	padding-bottom: 2rem;
+}
+
 .footer-section {
 	text-align: center;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#330d38+0,190d36+100 */
@@ -1376,6 +1387,30 @@ ol {
 }
 
 /* ----------------
+  Reglas section
+---------------------*/
+
+.reglas-item{
+	margin-bottom: 3rem;
+}
+
+.reglas-list{
+	padding-left: 1rem;
+}
+
+.regla-pic img{
+	margin-left: 18vw;
+}
+
+#iguana{
+	display: none;
+}
+
+#ladron{
+	display: none;
+}
+
+/* ----------------
   Review section
 ---------------------*/
 
@@ -1624,6 +1659,11 @@ ol {
 		min-width: 100%;
 		margin-bottom: 30px;
 	}
+
+	.regla-pic img{
+		min-width: 100%;
+		margin-bottom: 30px;
+	}
 	.contact-text {
 		margin-bottom: 50px;
 	}
@@ -1719,6 +1759,11 @@ ol {
 		font-size: 40px;
 	}
 	.review-pic img {
+		min-width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.regla-pic img{
 		min-width: 100%;
 		margin-bottom: 30px;
 	}

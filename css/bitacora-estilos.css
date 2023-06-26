@@ -1,0 +1,71 @@
+.opcion:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.javascript-file{
+    padding-top: 10%;
+}
+
+.javascript-file{
+    color: white;
+}
+
+.bloque-titulo{
+    text-align: center;
+}
+
+.titulo-seleccionado{
+    color: white;
+}
+
+.bloque-ideas{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.idea{
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-numero-idea{
+    border-bottom-style: solid;
+    border-bottom-color: blueviolet;
+}
+
+.numero-idea{
+    color: rgb(240, 42, 230);
+}
+
+.seccion-estructura-idea{
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;
+    justify-content: center;*/
+    gap: 19%;
+    padding-left: 10%;
+    border-bottom-style: solid;
+    border-bottom-color: blueviolet;
+}
+
+.estructura-idea{
+    color: sandybrown;
+}
+
+.seccion-idea-especifica{
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;
+    justify-content: center;*/
+    gap: 25%;
+    padding-left: 13%;
+    border-bottom-style: solid;
+    border-bottom-color: blueviolet;
+}
+
+.idea-especifica{
+    color: aliceblue;
+}
+
