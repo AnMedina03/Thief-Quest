@@ -98,77 +98,64 @@
 	<!-- Review section -->
 	<section class="review-section">
 		<div class="container">
-            <div class="reglas-item">
-                <h2 class="text-white">Historia</h2>
-            </div>
 			<div class="reglas-item">
 				<div class="row">
-					<div class="col-lg-4">
+					<!-- <div class="col-lg-4">
 						<div class="review-pic">
 							<img src="../../img/reglas/historia.jpg" alt="">
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-8">
                         <div class="review-content text-box text-white">
+							<h3 class="text-white">Historia</h3>
                             <p class="text-white">Dos o más ladrones buscan robar el valioso huevo de una iguana legendaria y salir del bosque escondido con vida a través de caminos que ellos mismos van formando. Lo que no saben es que… al hacerlo, la iguana va a despertarse enojada y decidirá cobrar venganza contra ellos para recuperar su huevo. </p>
-                        </div>
+							<br>
+							<h3 class="text-white">Objetivo</h3>
+							<p class="text-white">
+								El ladrón tiene por objetivo robar el huevo de la iguana legendaria, ubicada en el centro, y escapar por una de las paradas disponibles usando los caminos formados en el campo. 
+							</p>
+							<h3 class="text-white">Número de Jugadores</h3>
+                            <p class="text-white">Los jugadores deben dividirse entre dos tipos de jugadores: </p>
+							<ul class="reglas-list">
+								<li><u>Ladrones:</u> 2-4 Jugadores </li>
+								<li><u>Iguana:</u> 1 Jugador </li>								
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-            <div class="reglas-item">
-                <h2 class="text-white">Número de Jugadores</h2>
-            </div>
-			<div class="reglas-item" id="movimiento">
+			<!-- <div class="reglas-item" id="movimiento">
 				<div class="row">
+					<div class="col-lg-8">
+                        <div class="review-content text-box text-white">
+                            <h3 class="text-white">Número de Jugadores</h3>
+                            <p class="text-white">Los jugadores deben dividirse entre dos tipos de jugadores: </p>
+							<ul class="reglas-list">
+								<li><u>Ladrones:</u> 2-4 Jugadores </li>
+								<li><u>Iguana:</u> 1 Jugador </li>								
+							</ul>
+                        </div>
+					</div>
 					<div class="col-lg-4">
 						<div class="review-pic">
 							<img src="../../img/reglas/players.jpg" alt="">
 						</div>
 					</div>
-					<div class="col-lg-8">
-                        <div class="review-content text-box text-white">
-                            <h3>Movimiento</h3>
-                            <p class="text-white">Los jugadores deben dividirse entre dos tipos de jugadores: </p>
-							<ul class="reglas-list">
-								<li><u>Ladrones:</u> 1/2/3/4 Jugador(es) </li>
-								<li><u>Iguana:</u> 1 Jugador </li>								
-							</ul>
-                            <!-- <a href="#" class="read-more">Read More  <img src="../../img/icons/double-arrow.png" alt="#"/></a> -->
-                        </div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="reglas-item" id="reglas">
-                <div class="row">
-					<div class="col-lg-8">
-                        <div class="review-content text-box text-white">
-                            <h3>Reglas</h3>
-                            <ul class="blog-filter">
-                                <li><a href="#reglas">General</a></li>
-                                <li><a href="#reglas">Ladrón</a></li>
-                                <li><a href="#reglas">Iguana</a></li>
-                            </ul>
-                        </div>
-					</div>
-					<div class="col-lg-4">
-						<div class="review-pic">
-							<img src="../../img/review/1.jpg" alt="">
-						</div>
-					</div>
 				</div>
 			</div> -->
+
 			<div class="reglas-item">
 				<div class="row">
 				  <div class="col-lg-8">
 					<div class="review-content text-box text-white">
 					  <h3>Reglas</h3>
 					  <ul class="blog-filter">
-						<li><a onclick="rules('A')">General</a></li>
+						<!-- <li><a onclick="rules('A')">General</a></li> -->
 						<li><a onclick="rules('L')">Ladrón</a></li>
 						<li><a onclick="rules('I')">Iguana</a></li>
 					  </ul>
-					  <ul id="reglas">
-						<li>Los jugadores deberán elegir el orden de turnos de los jugadores del 1 al 5 respectivamente. Por recomendación del juego, lanzar los dados para elegir en base los números de mayor a menor, el último jugador debe ser la iguana.</li>
+					  <!-- <ul id="reglas">
+						<li> Por recomendación del juego, lanzar los dados para elegir en base los números de mayor a menor, el último jugador debe ser la iguana.</li>
 						<li>Cada ladrón debe lanzar el dado de 6 caras para saber en qué parada va a comenzar según encuentren su casilla correspondiente (Ej: Jugador 1 obtuvo 5 en el dado, entonces busca la quinta casilla J1). Las paradas se cuentan desde el Norte y de ahí se procede a contar a favor de las manecillas del reloj.</li>
 						<li>El jugador de la iguana lanza un dado de 6 caras para conocer el número de paradas que van a estar disponibles para el escape. Luego lanza el dado de colores y según el color que se indique, la iguana debe elegir en cuál de las 4 paradas de ese color desea colocar el paradero, si las 4 paradas están ocupadas deberá volver a lanzar el dado para elegir otro color. Si el lado del dado es el ícono de las flechas, significa que vuelve a tirar; por otro lado, si es el ícono de la iguana, él elige libremente que parada quiere que se habilite.</li>
 						<li>
@@ -181,35 +168,54 @@
 						<li>Una vez ubicada la puerta, 3 casillas antes se coloca la iguana principal. Este jugador elige si se coloca 3 casillas a la derecha o a la izquierda, lo que importa es que debe estar en las baldosas en rojo. Si pasan 10 rondas y nadie ha robado el huevo, este paso se repite para reubicar la puerta.</li>
 						<li>Se debe repartir 3 baldosas para cada jugador y estos no deben mostrarlas, salvo que sea requerido. Luego de que pase la primera ronda, al inicio de cada ronda todos reciben una baldosa y debe cumplirse que cada uno debe tener solo 3 cartas en la mano.</li>
 						<li>Ronda: significa que todos los jugadores ya han jugado su turno y el jugador de la iguana debe llevar la cuenta del número de ronda que van.</li>
-					  </ul>
+					  </ul> -->
 					  <div id="ladron">
 						<h4 style="margin-bottom: 1rem;margin-top: 0.5rem;">PRINCIPAL</h4>
-						<ul class="text-white">
-							<li>El ladrón tiene por objetivo robar el huevo y escapar por una de las paradas disponibles. Si otro ladrón robó antes un huevo, el primero puede robárselo cruzándose por su camino (No baldosa).</li>
+						<ol class="text-white">
+							<li>Los jugadores deberán elegir el orden de turnos de los jugadores del 1 al 5 respectivamente. Por recomendación del juego, lanzar los dados para elegir en base los números de mayor a menor, el último jugador debe ser la iguana. Por ejemplo: Si hay 3 jugadores, los 2 primeros jugadores serán ladrones y el último, el tercer jugador, será la iguana. </li>
 							<li>
-							En caso de que dos ladrones choquen sus caminos, pero ninguno tiene el huevo, el ladrón que choca puede ver las cartas del otro y quitarle una baldosa, y la víctima debe escoger una carta del primero sin ver. Si dos jugadores chocan a causa de que el jugador en turno puso una baldosa, entonces este jugador elige quien es el ladrón que choca y la víctima.
+								Ronda: significa que todos los jugadores ya han jugado su turno y el jugador de la iguana debe llevar la cuenta del número de ronda que van.  
 							</li>
-							<li>Si el ladrón tiene 3 Strikes de Iguana, sale de juego y su pieza se coloca en el centro del tablero.</li>
-						</ul>
-						<h4 style="margin-bottom: 1rem;margin-top: 0.5rem;">MOVIMIENTO</h4>
-						<ul class="text-white">
-							<li>Las líneas dibujadas en las baldosas son caminos y esto sirve para conectar con otros caminos con la finalidad de que el ladrón se pueda mover a través del tablero de forma estratégica.</li>
+							<li>En caso de que dos ladrones choquen sus caminos, pero ninguno tiene el huevo, el ladrón que choca puede ver las cartas del otro y quitarle una baldosa, y la víctima debe escoger una carta del primero sin ver. Si dos jugadores chocan a causa de que el jugador en turno puso una baldosa, entonces este jugador elige quien es el ladrón que choca y la víctima.</li>
 							<li>
-								<p style="color: white;margin-bottom: 0.5rem;">Las baldosas se pueden colocar en la siguiente casilla donde se encuentra el ladrón. Si ya existe una baldosa al realizar el movimiento, puede colocarlo al final del camino formado si hay espacio. Caso contrario, si no hay espacio para colocar una baldosa, el jugador tiene una de las siguientes opciones:</p>
+								<b>Cada ladrón</b> <img src="../../img/reglas/Imagen1.png" alt="ladrón" /> debe lanzar el dado de colores <img src="../../img/reglas/Imagen2.png" alt="dado de colores" /> para saber qué parada va a ser su punto de partida, es decir, de donde se va a comenzar a mover.
+								<ul style="margin-left: 2rem;">
+									<li style="margin-bottom: 0.5rem;">Si sale <b>un color,</b> el ladrón deberá escoger una de las 4 paradas de ese color y colocarse en él.</li>
+									<div class="small-pic">
+										<img src="../../img/reglas/Imagen5.png" alt="">
+									</div>
+									<li style="margin-top: 0.5rem;">Si sale el <b>ícono de la iguana,</b> la <b>iguana</b> va a <b>escoger el color</b> de la parada y el <b>ladrón</b> procederá a <b>elegir la parada</b> de igual forma que el punto anterior, solo que en esta ocasión el jugador de la iguana eligió el color. </li>
+									<li>Si sale el <b>ícono de las flechas,</b> deberá volver a lanzar el dado.</li>
+								</ul>
+							</li>
+							<li>Las paradas se cuentan desde el Norte y de ahí se procede a contar a favor de las manecillas del reloj [<b>NORTE</b> -> <b>ESTE</b> -> <b>SUR</b> -> <b>OESTE</b>].</li>
+							<li>Se deben repartir 3 baldosas <img src="../../img/reglas/Imagen3.png" alt="baldosa" /> para cada jugador y estos no deben mostrarlas, salvo que sea requerido (Es decir por una maldición o que se ponga de acuerdo con otro jugador para armar una estrategia).</li>
+							<li>Al finalizar una RONDA, todos los ladrones reciben una baldosa y debe cumplirse la regla que cada uno debe tener solo 3 cartas en la mano. Si tiene una baldosa de más, significa que no ha jugado su turno.</li>
+							<li>Si el ladrón tiene 3 Strikes de Iguana <img src="../../img/reglas/Imagen4.png" alt="iguana" />, sale de juego y su pieza se coloca en el centro del tablero.</li>
+							<li>Si otro ladrón robó antes un huevo <img src="../../img/reglas/Imagen6.png" alt="huevo" />, el primero puede robárselo cruzándose por su camino (No baldosa). Tras el robo, el nuevo portador del huevo no se verá afectado por otros intentos de robo de los demás ladrones por 3 rondas. </li>
+						</ol>
+						<h4 style="margin-bottom: 1rem;margin-top: 0.5rem;">MOVIMIENTO</h4>
+						<ol class="text-white">
+							<li style="margin-bottom: 1rem;">Las líneas dibujadas en las baldosas son caminos y esto sirve para conectar con otros caminos con la finalidad de que el ladrón se pueda mover a través del tablero de forma estratégica.</li>
+							<div class="small-pic">
+								<img src="../../img/reglas/Imagen7.png" alt="">
+							</div>
+							<li>
+								<p style="color: white;margin-bottom: 0.5rem;">Las baldosas se pueden colocar en la siguiente casilla donde se encuentra el ladrón. Si ya existe una baldosa al realizar el movimiento, puede colocarlo al final del camino formado si hay espacio. Caso contrario, si no hay espacio para colocar una baldosa, el jugador tiene una de las siguientes opciones: </p>
 								<ul style="margin-left: 2rem;">
 									<li>Cambiar la baldosa siguiente, descartando fuera de campo la que estaba y colocando la suya.</li>
-									<li>Al final del camino formado (camino muerto), puede cambiar la siguiente baldosa para continuar el camino, y del mismo modo se descarta la baldosa del campo y se coloca la de la mano.</li>
+									<li>Al final del camino formado (<b>camino muerto</b>), puede cambiar la siguiente baldosa para continuar el camino, y del mismo modo se descarta la baldosa del campo y se coloca la de la mano.</li>
 								</ul>
-								<p style="color: white;margin-top: 0.5rem;margin-bottom: 0%;">Al final del turno de un jugador, este debe tener 2 baldosas en la mano. [IMPORTANTE]:  Camino escogido, camino seguido. No puede cambiar la ruta una vez avanzado en el camino, a excepción de situaciones explicadas más adelante.</p>
+								<p style="color: white;margin-top: 0.5rem;margin-bottom: 0%;">Al final del turno de un jugador, este debe tener 2 baldosas en la mano. [<b>IMPORTANTE</b>]:  Camino escogido, camino seguido. No puede cambiar la ruta una vez avanzado en el camino, a excepción de situaciones explicadas más adelante.</p>
 							</li>
-							<li>Si la baldosa que el jugador del turno coloca tiene un camino que conecta otros caminos con el del un jugador cercano a la siguiente baldosa, este también se ve afectado y sigue el camino nuevo que se acaba de formar, dañando o beneficiando así la jugada del otro.</li>
-						</ul>
+							<li>Si la baldosa que el jugador del turno coloca tiene un camino que conecta otros caminos con el de un jugador cercano a la siguiente baldosa, este también se ve afectado y sigue el camino nuevo que se acaba de formar, dañando o beneficiando así la jugada del otro.</li>
+						</ol>
 						<h4 style="margin-bottom: 1rem;margin-top: 0.5rem;">SITUACIONES</h4>
-						<ul class="text-white">
+						<ol class="text-white">
 							<li>En caso de que un camino conecte directo al borde del tablero, el ladrón deberá colocarse en la parada más cercana. Pero si hay dos paradas cercanas a sus lados, el jugador decide en qué parada se va a colocar.</li>
-							<li>Existe la situación de que un jugador puede colocar una casilla que lleve a otro jugador a la casilla del parque, por lo tanto, el jugador “víctima” de este evento puede escoger otro camino por el cual continuar que no involucre el camino que lleva a la casilla roja ni por el camino en el que estaba antes del desplazamiento.</li>
+							<li>Existe la situación de que un jugador puede colocar una casilla que lleve a otro jugador a la casilla del parque, por lo tanto, el jugador “víctima” de este evento puede escoger otro camino por el cual continuar que no involucre el camino que lleva a la casilla roja ni por el camino en el que estaba antes del desplazamiento. </li>
 							<li>Si llega a las casillas del parque por su propia cuenta donde no está la puerta para robar el huevo, entonces se coloca en la siguiente casilla (casilla roja) y desde ahí puede cambiar de baldosa o de camino en la última casilla que estuvo. Pero, si hay jugadores y estos no chocan con la casilla del parque, ellos solo deben seguir el nuevo camino formado; caso contrario, se cumple la regla anterior.</li>
-						</ul>
+						</ol>
 					  </div>
 					  <div id="iguana">
 						<h4 style="margin-bottom: 1rem;margin-top: 0.5rem;">PRINCIPAL</h4>
