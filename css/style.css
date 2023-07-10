@@ -1406,9 +1406,9 @@ ol {
 	display: none;
 }
 
-#ladron{
+/* #ladron{
 	display: none;
-}
+} */
 
 /* ----------------
   Review section
@@ -1664,6 +1664,11 @@ ol {
 		min-width: 100%;
 		margin-bottom: 30px;
 	}
+
+	.small-pic img{
+		margin-top: 1rem;
+	}
+
 	.contact-text {
 		margin-bottom: 50px;
 	}
