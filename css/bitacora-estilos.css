@@ -127,3 +127,12 @@ img{
     border-style: double;
     border-color: rgb(235, 54, 211);
 }
+
+.puntos-clave{
+    display: flex;
+    flex-direction: column;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+}
