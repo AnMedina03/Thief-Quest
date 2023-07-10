@@ -1,0 +1,56 @@
+:root {
+    --claro: rgb(134, 39, 143);
+    --claro-100: rgba(134, 39, 143, 0.1);
+    --claro-200: rgba(134, 39, 143, 0.2);
+    --claro-300: rgba(134, 39, 143, 0.3);
+    --claro-400: rgba(134, 39, 143, 0.4);
+    --claro-500: rgba(134, 39, 143, 0.5);
+    --claro-600: rgba(134, 39, 143, 0.6);
+    --claro-700: rgba(134, 39, 143, 0.7);
+    --claro-800: rgba(134, 39, 143, 0.8);
+    --claro-900: rgba(134, 39, 143, 0.9);
+
+    --primario: rgb(80, 23, 85);
+    --primario-100: rgba(80, 23, 85, 0.1);
+    --primario-200: rgba(80, 23, 85, 0.2);
+    --primario-300: rgba(80, 23, 85, 0.3);
+    --primario-400: rgba(80, 23, 85, 0.4);
+    --primario-500: rgba(80, 23, 85, 0.5);
+    --primario-600: rgba(80, 23, 85, 0.6);
+    --primario-700: rgba(80, 23, 85, 0.7);
+    --primario-800: rgba(80, 23, 85, 0.8);
+    --primario-900: rgba(80, 23, 85, 0.9);
+
+
+    --secundario: #00662c;
+    --secundario-100: rgba(0, 102, 44, 0.1);
+    --secundario-200: rgba(0, 102, 44, 0.2);
+    --secundario-300: rgba(0, 102, 44, 0.3);
+    --secundario-400: rgba(0, 102, 44, 0.4);
+    --secundario-500: rgba(0, 102, 44, 0.5);
+    --secundario-600: rgba(0, 102, 44, 0.6);
+    --secundario-700: rgba(0, 102, 44, 0.7);
+    --secundario-800: rgba(0, 102, 44, 0.8);
+    --secundario-900: rgba(0, 102, 44, 0.9);
+    
+    --terciario: rgb(207, 100, 0);
+    --terciario-100: rgba(207, 100, 0, 0.1);
+    --terciario-200: rgba(207, 100, 0, 0.2);
+    --terciario-300: rgba(207, 100, 0, 0.3);
+    --terciario-400: rgba(207, 100, 0, 0.4);
+    --terciario-500: rgba(207, 100, 0, 0.5);
+    --terciario-600: rgba(207, 100, 0, 0.6);
+    --terciario-700: rgba(207, 100, 0, 0.7);
+    --terciario-800: rgba(207, 100, 0, 0.8);
+    --terciario-900: rgba(207, 100, 0, 0.9);
+
+    /* --secundario-100: #019742;
+    --secundario-200: #008d3d;
+    --secundario-300: #017f37;
+    --secundario-400: #007533;
+    --secundario-500: #005525;
+    --secundario-600: #00461e;
+    --secundario-700: #00411c;
+    --secundario-800: #003d1b;
+    --secundario-900: #002c13; */
+}

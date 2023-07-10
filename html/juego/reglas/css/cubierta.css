@@ -1,0 +1,41 @@
+.portrait-container {
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.portrait-container:hover img {
+    outline: none;
+    border-color: var(--terciario);
+    box-shadow: 0 0 10px var(--terciario);
+}
+
+.portrait-container:hover a {
+    text-shadow: 0 0 10px var(--terciario);
+}
+
+.portrait-size {
+    width: 50%;
+    height: auto;
+}
+
+a {
+    color: wheat;
+    text-align: center;
+    font-size: 1rem !important;
+    transition: color 400ms ease;
+}
+
+a span.doc-link {
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+a.doc-link:hover {
+    color: #b6b6b6;
+}

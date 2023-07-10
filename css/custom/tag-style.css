@@ -47,13 +47,13 @@ a {
 }
 
 .accordion-header.dark-theme .accordion-button:not(.collapsed) {
-    background: linear-gradient(45deg, #86278f 0%, #552d9e 100%);
+    background: linear-gradient(45deg, var(--claro) 0%, #552d9e 100%);
     font-weight: bold;
     font-size: 1.4rem;
 }
 
 .accordion-header.dark-theme .accordion-button.collapsed {
-    background: linear-gradient(45deg, rgba(80, 23, 85, 0.677) 0%, rgba(45, 24, 84, 0.677) 100%);
+    background: linear-gradient(45deg, var(--primario-600) 0%, rgba(45, 24, 84, 0.677) 100%);
 }
 
 .accordion-header.dark-theme .accordion-button:not(.collapsed)::after {
@@ -62,4 +62,32 @@ a {
 
 .accordion-header.dark-theme .accordion-button::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23cf84e7'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.title-bg, .subtitle-bg {
+    backdrop-filter: blur(6px);
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.title-bg {
+    background: linear-gradient(45deg, var(--claro-600) 0%, rgba(45, 24, 84, 0.677) 100%);
+    font-weight: bold;
+}
+
+.subtitle-bg {
+    background: linear-gradient(45deg, var(--claro) 0%, #552d9e 100%);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.thief-title {
+    background: linear-gradient(45deg, var(--terciario-600) 0%, rgba(45, 24, 84, 0.677) 100%);
+}
+
+.iguana-title {
+    background: linear-gradient(45deg, var(--secundario-600) 0%, rgba(45, 24, 84, 0.677) 100%);
 }
