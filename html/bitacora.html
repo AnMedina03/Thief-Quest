@@ -15,17 +15,25 @@
 
 
 	<!-- Stylesheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	<link rel="stylesheet" href="../css/font-awesome.min.css" />
 	<link rel="stylesheet" href="../css/slicknav.min.css" />
+	<link rel="stylesheet" href="../css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="../css/magnific-popup.css" />
 	<link rel="stylesheet" href="../css/animate.css" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/bitacora-estilos.css"/>
+
+	<link rel="stylesheet" href="../css/bitacora-estilos.css" />
 
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="../css/style.css" />
 	<link rel="stylesheet" href="../css/custom/tag-style.css" />
 	<link rel="stylesheet" href="../css/custom/position.css" />
+	<link rel="stylesheet" href="../css/custom/colores.css" />
+	<link rel="stylesheet" href="indices-bitacora/css/playtesting.css" />
 
 
 	<!--[if lt IE 9]>
@@ -85,7 +93,7 @@
 
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="../img/page-top-bg/iguana-bg.png">
+	<section class="page-top-section set-bg" data-setbg="../img/page-top-bg/iguana-bg-banner.png">
 		<div class="page-info">
 			<h2>Portafolio</h2>
 			<div class="site-breadcrumb">
@@ -101,7 +109,10 @@
 	<section class="blog-page">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-9 col-lg-8 col-md-7">
+				<div class="w-100">
+					<h2 class="text-white title-bg">Portafolio</h2>
+					<br>
+
 					<div class="accordion" id="accordionExample">
 						<div class="accordion-item accordion-item-no-border">
 							<h2 class="accordion-header dark-theme">
@@ -114,12 +125,14 @@
 								data-bs-parent="#accordionExample">
 								<div class="accordion-body mx-5">
 									<ol type="I">
-										<li class="opcion" id="TipoI1">Proceso de ideación: Sustantivo / Adjetivo / Verbo</li>
-										<li class="opcion" id="TipoI2">Boceto de mejores ideas [Storyboards]</li>
-										<li class="opcion" id="TipoI3">Elementos formales</li>
-										<li class="opcion">Idea seleccionada</li>
-										<li class="opcion">Reuniones y prototipado</li>
-										<li class="opcion">Playtesting Zero</li>
+										<li class="opcion pointer" id="TipoI1">Proceso de ideación: Sustantivo /
+											Adjetivo / Verbo</li>
+										<li class="opcion pointer" id="TipoI2">Boceto de mejores ideas [Storyboards]
+										</li>
+										<li class="opcion pointer" id="TipoI3">Elementos formales</li>
+										<li class="opcion pointer" id="TipoI4">Idea seleccionada</li>
+										<li class="opcion pointer" id="TipoI4">Reuniones y prototipado</li>
+										<li class="opcion pointer" id="TipoI6">Playtesting Zero</li>
 									</ol>
 								</div>
 							</div>
@@ -128,14 +141,15 @@
 							<h2 class="accordion-header dark-theme">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
 									data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									SEGUNDA ETAPA - PRÓXIMAMENTE [Junio/dd/2023]
+									SEGUNDA ETAPA - Pruebas
 								</button>
 							</h2>
 							<div id="collapseTwo" class="accordion-collapse collapse"
 								data-bs-parent="#accordionExample">
 								<div class="accordion-body mx-5">
 									<ol type="I">
-										<li>Playtesting One</li>
+										<li class="opcion pointer" id="TipoI7">Playtesting One</li>
+										<li class="opcion pointer" id="TipoI8">Playtesting Two</li>
 									</ol>
 								</div>
 							</div>
@@ -143,11 +157,56 @@
 					</div>
 
 					<div class="javascript-file" id="JavascriptFile">
-						
+
+					</div>
+
+					<br>
+					<h2 class="text-white title-bg">Videos Durante Pruebas</h2>
+					<br>
+					<h3 class="text-white subtitle-bg">Play Testing 1</h3>
+					<br>
+
+					<div class="video-tutorial-section set-bg d-flex align-items-end "
+						data-setbg="../img/promo-bg.jpg">
+						<button class="video-tutorial-play-btn playtesting-one-p1 fx-display"><img
+								src="../img/icons/solid-right-arrow.png" alt="#"></button>
+						<div class="container">
+							<div class="video-text">
+								<h2>Play Testing 1 - Prueba 1</h2>
+							</div>
+						</div>
+					</div>
+					<br>
+
+					<div class="video-tutorial-section set-bg d-flex align-items-end "
+						data-setbg="../img/promo-bg.jpg">
+						<button class="video-tutorial-play-btn playtesting-one-p2 fx-display"><img
+								src="../img/icons/solid-right-arrow.png" alt="#"></button>
+						<div class="container">
+							<div class="video-text">
+								<h2>Play Testing 1 - Prueba 2</h2>
+							</div>
+						</div>
+					</div>
+					<br>
+
+					<h3 class="text-white subtitle-bg">Play Testing 2</h3>
+					<br>
+					<div class="video-tutorial-section set-bg d-flex align-items-end "
+						data-setbg="../img/promo-bg.jpg">
+						<button class="video-tutorial-play-btn playtesting-one-p3 fx-display"><img
+								src="../img/icons/solid-right-arrow.png" alt="#"></button>
+						<div class="container">
+							<div class="video-text">
+								<h2>Play Testing 2 - Prueba 1</h2>
+							</div>
+						</div>
 					</div>
 
 
 				</div>
+
+				
 				<!--<div class="col-xl-3 col-lg-4 col-md-5 sidebar">
 					<div id="stickySidebar">
 						<div class="widget-item">
@@ -291,13 +350,25 @@
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
 	<script src="../js/jquery.slicknav.min.js"></script>
 	<script src="../js/jquery.sticky-sidebar.min.js"></script>
+	<script src="../js/jquery.magnific-popup.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
 	<script src="../js/main.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+	<!--====== CUSTOM JAVASCRIPT ======-->
 	<script src="indices-bitacora/primera-etapa/ideacion.js"></script>
 	<script src="indices-bitacora/primera-etapa/mejores-ideas.js"></script>
 	<script src="indices-bitacora/primera-etapa/elementos-formales.js"></script>
+	<script src="indices-bitacora/primera-etapa/playtesting-zero.js"></script>
+
+	<script src="indices-bitacora/segunda-etapa/playtesting-one.js"></script>
+	<script src="indices-bitacora/segunda-etapa/playtesting-two.js"></script>
+
+	<script src="indices-bitacora/videos-playtesting.js"></script>
 
 </body>
 
