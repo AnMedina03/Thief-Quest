@@ -1,3 +1,18 @@
+function portafolio(tipo) {
+    var info = document.getElementById("Info");
+    var videos = document.getElementById("Videos");
+    
+    if(tipo === 'I'){
+        // reglas.style.display = "none";
+        info.style.display = "block";
+        videos.style.display = "none";
+    }else if(tipo === 'V'){
+        // reglas.style.display = "none";
+        info.style.display = "none";
+        videos.style.display = "block";
+    }
+}
+
 $('.playtesting-one-p1').magnificPopup({
     items: {
         src: `
@@ -26,7 +41,7 @@ $('.playtesting-one-p2').magnificPopup({
     }
 });
 
-$('.playtesting-one-p3').magnificPopup({
+$('.playtesting-two-p1').magnificPopup({
     items: {
         src: `
         <div class="fx-display popup-background">
@@ -39,3 +54,31 @@ $('.playtesting-one-p3').magnificPopup({
         type: 'inline'
     }
 });
+
+// $('.playtesting-tri-p1').magnificPopup({
+//     items: {
+//         src: `
+//         <div class="fx-display popup-background">
+//             <iframe class="video-fullscreen" src="https://www.youtube.com/embed/TLOrT2_zbJc"
+//             title="Tutorial - Crear Tablero" frameborder="0"
+//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//             allowfullscreen></iframe>
+//         </div>
+//         `,
+//         type: 'inline'
+//     }
+// });
+
+// $('.playtesting-tri-p2').magnificPopup({
+//     items: {
+//         src: `
+//         <div class="fx-display popup-background">
+//             <iframe class="video-fullscreen" src="https://www.youtube.com/embed/TLOrT2_zbJc"
+//             title="Tutorial - Crear Tablero" frameborder="0"
+//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//             allowfullscreen></iframe>
+//         </div>
+//         `,
+//         type: 'inline'
+//     }
+// });
