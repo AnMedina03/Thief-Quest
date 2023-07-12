@@ -1274,7 +1274,7 @@ ol {
 .game-single-content p {
 	font-size: 16px;
 	font-weight: 500;
-	color: #68647d;
+	color: #ffffff;
 	line-height: 1.8;
 	margin-bottom: 70px;
 }
@@ -1815,4 +1815,12 @@ ol {
 		float: none;
 		margin-bottom: 20px;
 	}
+}
+
+.puntos-clave p {
+	text-align: justify;
+	font-size: 16.5px;
+	color: #585858;
+	line-height: 1.6;
+	font-weight: 500;
 }
