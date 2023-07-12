@@ -130,7 +130,7 @@ function puntoC(){
                 <div class="linea">
                     <p style="color:white;">Cuando ganan los jugadores:</p>
                     <p style="padding-left:3px;color:lightblue;">
-                        Inicialmente, todos los jugadores deben colocar sus muros y analizar que estrategia realizar. De ahí juega 1 jugador por ronda, o más jugadores si son más de 5 jugadores, para decidir si baján a explorar o atacar un reino, destruyendo los muros.                  
+                        Una vez que el reino de uno de los dragones logre conquistar los otros reinos.
                     </p>
                 </div>
 

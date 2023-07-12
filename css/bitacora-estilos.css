@@ -140,3 +140,32 @@ img{
 #Videos {
     display: none;
 }
+
+#Prototipo {
+    display: none;
+}
+
+.choosed-game-style {
+    padding: 1rem;
+    width: 40vw;
+    min-width: 40%;
+}
+
+.inspiracion-portada {
+    width: 20rem;
+}
+
+a span.doc-link {
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+a.doc-link:hover {
+    color: #b6b6b6;
+}
+
+a span.doc-link, a.doc-link {
+    color: wheat;
+    font-size: 1rem !important;
+    transition: color 400ms ease;
+}
