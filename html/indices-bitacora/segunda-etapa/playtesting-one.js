@@ -4,6 +4,13 @@ seccionSiete.addEventListener('click', puntoAII);
 function puntoAII(){
     const regionContenido = document.getElementById("JavascriptFile");
 
+    videoFormato = (url) => `
+        <iframe class="video-reunion" src="${url}" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    `
+
     regionContenido.innerHTML = `
     
     <div class="bloque-titulo">
@@ -20,7 +27,14 @@ function puntoAII(){
             <div></div>
             <br>
             <h3 class="text-white title-bg thief-title">Retroalimentación y Cambios</h3>
-            <div></div>
+            <br>
+            <h4 class="text-white subtitle-bg iguana-title">Reunión en Equipo [3]</h4>
+            <div class="fx-display fx-fil gp-1 fx-wp linea" style="padding: 1rem;">
+
+                ${videoFormato("https://www.youtube.com/embed/UEm6jplkR_c")}
+
+            </div>
+            <br>
         </div>
     </section>
     

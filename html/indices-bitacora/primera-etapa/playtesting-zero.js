@@ -40,10 +40,54 @@ function puntoF(){
             </div>
             <br>
             <h3 class="text-white title-bg iguana-title">Problemas Encontrados</h3>
-            <div></div>
+            <div class="puntos-clave" style="padding: 1vw;>
+                <div class="linea">
+                    <ul style="color:lightblue;">
+                        <h5 style="color:var(--prim-ligth);">Primera prueba</h5>
+                        <li>
+                            Con la primera versión de las reglas (antes de lanzarlas a pruebas con usuarios externos), los ladrones no comprendían claramente como llegar a su
+                            posición inicial. Estaban mal distribuidos y eran muy ambiguas.
+                        </li>
+                        <li>
+                            La movilidad de la iguana era "<b>AUTOMÁTICA</b>" pero existían problemas que eso ocurra porque no había algo o alguien específico que la moviera, resultando 
+                            en movimientos aleatorios que al final solo permitían que los ladrones pudieran escapar sin problemas y ganar, perdiendo así (la iguana) su relevancia en el juego.
+                        </li>
+                        <br>
+                        <h5 style="color:var(--prim-ligth);">Segunda prueba</h5>
+                        <li>
+                            Ya se tenían armadas las reglas y los personajes, pero aún esas reglas eran suceptibles a cambios debido a que eran demasiado ambigua, a tal punto que nuestro equipo
+                            no sabía como reaccionar a ciertos eventos.
+                        </li>
+                        <li>
+                            cómo el jugador de la iguana.
+                        </li>
+                        <br>
+                        <h5 style="color:var(--prim-ligth);">Segunda prueba</h5>
+                        <li>
+                            Con la primera versión de las reglas (antes de lanzarlas a pruebas con usuarios externos), los ladrones no comprendían claramente como llegar a su
+                            posición inicial. Estaban mal distribuidos y eran muy ambiguas.
+                        </li>
+                        <li>
+                            La movilidad de la iguana era "<b>AUTOMÁTICA</b>" pero existían problemas que eso ocurra porque no había algo o alguien específico que la moviera, resultando 
+                            en movimientos aleatorios que al final solo permitían que los ladrones pudieran escapar sin problemas y ganar, perdiendo así (la iguana) su relevancia en el juego.
+                        </li>
+                    </ul>
+                </div>    
+            </div>
             <br>
             <h3 class="text-white title-bg iguana-title">Retroalimentación y Cambios</h3>
-            <div></div>
+            <div class="puntos-clave" style="padding: 1vh; margin: 1vh;>
+                <div class="linea">
+                    <p style="color:lightblue;">
+                        Observando los evidentes problemas, agregamos una flecha en la parte superior izquierda del tablero para indicar por donde deben comenzar
+                        el conteo de las paradas o de las posiciones de los jugadores, además de ya crear los personajes para comenzar a probar como debía ser.
+                        <br>
+                        Muy aparte de la parte visual, cambiamos la funcionalidad de la iguana, en vez de que sea un <b>NPC</b>, lo pasamos a que sea un personaje jugable. 
+                        Habían partes de las reglas que no eran muy claras y hacían falta agregar otras para poder aclarar muchos puntos, entre esos la jugabilidad del nuevo 
+                        personaje de la iguana.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>    
     `;

@@ -32,6 +32,8 @@
     --secundario-700: rgba(0, 102, 44, 0.7);
     --secundario-800: rgba(0, 102, 44, 0.8);
     --secundario-900: rgba(0, 102, 44, 0.9);
+
+    --prim-ligth: #019742;
     
     --terciario: rgb(207, 100, 0);
     --terciario-100: rgba(207, 100, 0, 0.1);
