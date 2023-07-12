@@ -1247,6 +1247,8 @@ ol {
 
 .game-single-preview {
 	margin-bottom: 108px;
+	display:flex;
+	justify-content: center;
 }
 
 .game-single-content .gs-meta {
@@ -1264,6 +1266,7 @@ ol {
 	font-size: 60px;
 	color: #fff;
 	margin-bottom: 40px;
+	text-align: justify;
 }
 
 .game-single-content h4 {
@@ -1821,6 +1824,14 @@ ol {
 	text-align: justify;
 	font-size: 16.5px;
 	color: #585858;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.review-content.text-box.text-white p{
+	text-align: justify;
+	font-size: 16.5px;
+	color: lightblue;
 	line-height: 1.6;
 	font-weight: 500;
 }
