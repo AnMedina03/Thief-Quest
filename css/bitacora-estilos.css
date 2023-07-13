@@ -173,11 +173,23 @@ a span.doc-link, a.doc-link {
 .playtesting-element {
     padding: 1rem;
     width: 30vw;
+    min-width: 10rem;
+}
+
+.playtesting-element-1 {
+    padding: 1rem;
+    width: 20vw;
     min-width: 15rem;
 }
 
 .foto-playtesting {
     padding: 1rem;
     width: 40vw;
-    min-width: 15rem;
+    min-width: 10rem;
+}
+
+.foto-playtesting-1 {
+    padding: 1rem;
+    width: 30vw;
+    min-width: 10rem;
 }
