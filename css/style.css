@@ -529,6 +529,19 @@ ol {
 	opacity: 0;
 }
 
+.hero-item h2.main {
+	font-size: 7rem !important;
+	color: var(--prim-ligth) !important;
+}
+
+.hero-item h2.second {
+	font-size: 5rem !important;
+}
+
+.hero-item h2.third {
+	font-size: 3rem !important;
+}
+
 .hero-item p {
 	font-size: 24px;
 	color: rgba(255, 255, 255, 0.4);

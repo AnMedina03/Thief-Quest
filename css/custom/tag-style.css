@@ -91,3 +91,7 @@ a {
 .iguana-title {
     background: linear-gradient(45deg, var(--secundario-600) 0%, rgba(45, 24, 84, 0.677) 100%);
 }
+
+.read-more-arrow {
+    width: 1rem;
+}
