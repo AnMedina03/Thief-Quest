@@ -28,7 +28,7 @@ function puntoF(){
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                    Se utilizó un tablero de juego formado por 6 horas A4, dicho tablero contenía la ubicación de las paradas ubicadas en los extremos del tablero,
+                    Se utilizó un tablero de juego formado por 6 hojas A4, dicho tablero contenía la ubicación de las paradas ubicadas en los extremos del tablero,
                     todas manejando un mismo color. A su vez, se tenían un conjunto de baldosas con los caminos trazados para indicar la movilidad de los jugadores.
                     Por otro lado, respecto a las fichas de cada jugador (ladrones e iguanas) estas se representaron por medio de papeles enrollados puesto que no se tenía 
                     todavía un diseño fijo para los personajes. Respecto al huevo dorado, se empleó un borrador para representarlo durante la primera versión de las pruebas
@@ -40,7 +40,7 @@ function puntoF(){
             <br>
             <h3 class="text-white title-bg iguana-title">Problemas Encontrados</h3>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Manual v1" class="foto-playtesting">
+                <img src="../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Prueba 0 - Escena 1" class="foto-playtesting">
             </div>
             <div class="puntos-clave"  style="padding: 1vh; margin: 1vh;">
                 <h5 style="color:var(--prim-ligth);">Primera prueba</h5>

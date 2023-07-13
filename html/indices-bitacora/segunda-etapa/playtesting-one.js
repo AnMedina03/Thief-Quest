@@ -25,72 +25,65 @@ function puntoAII(){
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <p style="color:white;">Detalle de elementos usados:</p>
                 <p style="color:lightblue;">
-                Para el Playtesting Zero se empleó el siguiente tablero de juego con los siguientes elementos empleados en las fotos:
+                Para el Playtesting 1 se empleó el siguiente tablero de juego con los siguientes elementos empleados en las fotos:
                 </p>
             </div>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/Imagen2.png" alt="Manual v1" class="playtesting-element">
+                <img src="../img/pruebas/playtesting-one/Imagen4.png" alt="Manual v2" class="playtesting-element">
+                <img src="../img/pruebas/playtesting-one/Imagen5.png" alt="Elementos v1" class="playtesting-element">
                 <img src="../img/pruebas/playtesting-zero/Imagen3.png" alt="Tablero v1" class="playtesting-element">
             </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                    Se utilizó un tablero de juego formado por 6 horas A4, dicho tablero contenía la ubicación de las paradas ubicadas en los extremos del tablero,
-                    todas manejando un mismo color. A su vez, se tenían un conjunto de baldosas con los caminos trazados para indicar la movilidad de los jugadores.
-                    Por otro lado, respecto a las fichas de cada jugador (ladrones e iguanas) estas se representaron por medio de papeles enrollados puesto que no se tenía 
-                    todavía un diseño fijo para los personajes. Respecto al huevo dorado, se empleó un borrador para representarlo durante la primera versión de las pruebas
-                    entre el equipo de trabajo. Por otro lado, se tuvo una serie de cartas impresas que representaron las maldiciones así como también se imprimió una primera versión
-                    de las reglas de alrededor de 2 páginas que contenía las reglas del movimiento e interacciones de los jugadores ladrones y de las iguanas.
+                    Se utilizó el tablero de juego con el mismo diseño formado con 6 hojas A4, dicho tablero contenía la ubicación de las paradas ubicadas en los extremos del tablero,
+                    con una clara diferencia de que ahora el tablero se lo imprimió con el color que es para reconocer cada palabra. A su vez, se tenían un conjunto de baldosas
+                    con los caminos trazados para indicar la movilidad de los jugadores, estas fichas ya eran más grandes, un tamaño fijo de 3.4cm. Por otro lado, respecto a las fichas
+                    de cada jugador (ladrones e iguanas), el huevo, las paradas y la puerta estas ya tuvieron un diseño fijo para representarse y te los hizo con papel y cinta.
+                    Por otro lado, se tuvo una serie de cartas impresas que representaron las maldiciones, con un diseño en la parte posterior así como también se imprimió una
+                    primera versión oficial del manual de reglas para que los jugadores puedan entender el juego, ya sea el movimiento o las interacciones de los jugadores según su rol
+                    ladrones y de las iguanas.
                     </p>
                 </div>    
             </div>
             <br>
             <h3 class="text-white title-bg thief-title">Problemas Encontrados</h3>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Manual v1" class="foto-playtesting">
+                <img src="../img/pruebas/playtesting-one/playtesting1-prueba1-1.jpeg" alt="Prueba 2 - Escena 1" class="foto-playtesting-1">
+                <img src="../img/pruebas/playtesting-one/playtesting1-prueba1-2.jpeg" alt="Prueba 2 - Escena 2" class="foto-playtesting-1">
+                <img src="../img/pruebas/playtesting-one/playtesting1-prueba2-1.jpg" alt="Prueba 1 - Escena 1" class="foto-playtesting-1">
+                <img src="../img/pruebas/playtesting-one/playtesting1-prueba2-2.jpg" alt="Prueba 1 - Escena 2" class="foto-playtesting-1">
             </div>
-            <div class="puntos-clave"  style="padding: 1vh; margin: 1vh;">
-                <h5 style="color:var(--prim-ligth);">Primera prueba</h5>
-                <li style="color:lightblue;">
-                    Con la primera versión de las reglas (antes de lanzarlas a pruebas con usuarios externos), los ladrones no comprendían claramente como llegar a su
-                    posición inicial. Estaban mal distribuidos y eran muy ambiguas.
-                </li>
-                <li style="color:lightblue;">
-                    La movilidad de la iguana era "<b>AUTOMÁTICA</b>" pero existían problemas que eso ocurra porque no había algo o alguien específico que la moviera, resultando 
-                    en movimientos aleatorios que al final solo permitían que los ladrones pudieran escapar sin problemas y ganar, perdiendo así (la iguana) su relevancia en el juego.
-                </li>
-                <br>
-                <h5 style="color:var(--prim-ligth);">Segunda prueba</h5>
-                <li style="color:lightblue;">
-                    Ya se tenían armadas las reglas y los personajes, pero aún esas reglas eran suceptibles a cambios debido a que eran demasiado ambigua, a tal punto que nuestro equipo
-                    no sabía como reaccionar a ciertos eventos.
-                </li>
-                <li style="color:lightblue;">
-                    Cómo el jugador de la iguana se podía mover y debía esperar a que robaran el huevo para moverse.
-                </li>
-                <br>
-                <h5 style="color:var(--prim-ligth);">Tercera prueba</h5>
-                <li style="color:lightblue;">
-                    El jugador de la iguana se movía muy lento, ya sea con las miniiguanas o con la iguana legendaria.
-                </li>
-                <li style="color:lightblue;">
-                    Las reglas para el rol de la iguana no eran muy claras.
-                </li> 
+            <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
+                <div class="linea">
+                    <p style="color:lightblue;">
+                        <li>
+                            En ambas prubas durante el playtesting, los jugadores tenían problemas principalmente al recién ubicar las piezas de juego, es decir,
+                            no sabían donde ubicar los ladrones y las iguanas en el tablero. Tampoco sabían donde ubicar las paradas y que todas se tenían que
+                            colocar en el mismo momento (respetando la regla para ubicar la parada).
+                        </li>
+                        <li>
+                            Por otro lado, apareció el problema principal de que, una vez ya lanzado los dados y escogidos los roles, los jugadores con el rol de
+                            ladrón demoraron en leer el manual para el ladrón pero la iguana tenía que esperar hasta que ellos terminen de leer para recién saber
+                            sus reglas.
+                        </li>
+                        <li>
+                            Durante la partida, los ladrones no sabían la funcionalidad de los caminos, habían caminos mezclados y no sabían cual apuntaba a cual y
+                            en una prueba uno de los jugadores pensaba que en medio de las líneas, se formaban un camino.
+                        </li>
+                    </p>
+                </div>    
             </div>
             <br>
             <h3 class="text-white title-bg thief-title">Retroalimentación y Cambios</h3>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                        Observando los evidentes problemas, agregamos una flecha en la parte superior izquierda del tablero para indicar por donde deben comenzar
-                        el conteo de las paradas o de las posiciones de los jugadores, además de ya crear los personajes para comenzar a probar como debía ser.
-                        <br>
-                        Muy aparte de la parte visual, cambiamos la funcionalidad de la iguana, en vez de que sea un <b>NPC</b>, lo pasamos a que sea un personaje jugable. 
-                        Habían partes de las reglas que no eran muy claras y hacían falta agregar otras para poder aclarar muchos puntos, entre esos la jugabilidad del nuevo 
-                        personaje de la iguana.
-                        <br>
-                        Además, se implementaron a los nuevos personajes para el jugador de la iguana, los cuáles son las miniiguanas. Mientras la iguana principal permanece
-                        esperando, este jugador podrá mover las miniiguanas para atrapar a los demás jugadores (ladrones).
+                        Observando los problemas con participantes externos, decidimos cambiar el diseño del tablero, enfocando más la casilla para colocar las paradas
+                        y también se entienda donde y cómo ubicar el punto de partida (parada inicial) de los ladrones. Además, se cambiaron las reglas para que sean
+                        claras y dinámicas, para esto último se colocaron íconos para representar los elementos a los que se hacían referencia. Por último pero no
+                        menos importante, respecto a las baldosas, se lo hizo de manera digital y se les colocó con 2 diferentes colores para que se puedan diferenciar
+                        los caminos mezclados.
                     </p>
                 </div>
             </div>
