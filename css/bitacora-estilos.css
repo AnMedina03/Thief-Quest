@@ -169,3 +169,15 @@ a span.doc-link, a.doc-link {
     font-size: 1rem !important;
     transition: color 400ms ease;
 }
+
+.playtesting-element {
+    padding: 1rem;
+    width: 30vw;
+    min-width: 15rem;
+}
+
+.foto-playtesting {
+    padding: 1rem;
+    width: 40vw;
+    min-width: 15rem;
+}
