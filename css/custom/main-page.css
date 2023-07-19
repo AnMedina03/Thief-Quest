@@ -1,0 +1,38 @@
+.main-page {
+    padding: 5rem 1rem;
+    background: linear-gradient(45deg, var(--primario) 0%, rgb(61, 11, 114) 50%, rgb(37, 4, 72) 100%);
+}
+
+.main-page-pic {
+    width: 50%;
+    height: auto;
+}
+
+.footer-mainlogo .footer-img {
+    width: 4rem !important;
+    height: auto;
+}
+
+.iguana-box, .zambrano-box {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 30vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.iguana-box {
+    background-color: black;
+}
+
+.zambrano-box {
+    background-color: black;
+}
+
+.main-game-title {
+    font-size: 2rem;
+}
+
+.main-game-subtitle {
+    font-size: 1.5rem;
+}
