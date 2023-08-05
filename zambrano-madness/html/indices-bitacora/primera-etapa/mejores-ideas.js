@@ -17,13 +17,13 @@ function puntoB(){
                 <h4 class="nombre-storyboard">Zambrano's Madness</h4>
             </div>
             <div class="bloque-imagen">
-                <img src="../../../../../img/storyboards/zambranos_madness/zm1.jpeg" alt="storyboard">
+                <img src="../../img/storyboards/zambranos_madness/zm1.jpeg" alt="storyboard">
             </div>
             <div class="bloque-imagen">
-                <img src="../../../../../img/storyboards/zambranos_madness/zm2.jpeg" alt="storyboard">
+                <img src="../../img/storyboards/zambranos_madness/zm2.jpeg" alt="storyboard">
             </div>
             <div class="bloque-imagen">
-                <img src="../../../../../img/storyboards/zambranos_madness/zm3.jpeg" alt="storyboard">
+                <img src="../../img/storyboards/zambranos_madness/zm3.jpeg" alt="storyboard">
             </div>
         </div>
 

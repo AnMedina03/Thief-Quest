@@ -95,3 +95,15 @@ a {
 .read-more-arrow {
     width: 1rem;
 }
+
+.sm-text {
+    color: white !important;
+    font-size: 1.1rem !important;
+}
+
+.sm-sub-title {
+    color: var(--prim-ligth) !important;
+    font-style: italic !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+}
