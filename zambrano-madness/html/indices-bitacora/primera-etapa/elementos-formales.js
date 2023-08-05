@@ -1,5 +1,5 @@
-const seccionTres = document.getElementById("TipoI3");
-seccionTres.addEventListener('click', puntoC);
+const seccionTres0 = document.getElementById("TipoI30");
+seccionTres0.addEventListener('click', puntoC);
 
 function puntoC(){
     const regionContenido = document.getElementById("JavascriptFile");

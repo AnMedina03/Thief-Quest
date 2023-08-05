@@ -7,51 +7,27 @@ function puntoB(){
     regionContenido.innerHTML = `
     
     <div class="bloque-titulo">
-        <h2 class="titulo-seleccionado">Storyboards</h2>
+        <h2 class="titulo-seleccionado">Storyboards / Bocetos</h2>
     </div>
     
     <div class="bloque-bocetos">
 
         <div class="boceto">
             <div class="bloque-nombre">
-                <h4 class="nombre-storyboard">Guillermo Veintimilla</h4>
-            </div>
-            <div class="bloque-imagen-G">
-                <img src="../img/storyboards/GV.png" alt="storyboard">
-            </div>
-        </div>
-
-        <div class="boceto">
-            <div class="bloque-nombre">
-                <h4 class="nombre-storyboard">Andres Medina</h4>
-            </div>
-            <div class="bloque-dos-imagenes">
-                <div class="bloque-imagen">
-                    <img src="../img/storyboards/AM.png" alt="storyboard">
-                </div>
-                <div class="bloque-imagen">
-                    <img src="../img/storyboards/AM2.png" alt="storyboard">
-                </div>
-            </div>
-        </div>
-
-        <div class="boceto">
-            <div class="bloque-nombre">
-                <h4 class="nombre-storyboard">Diego Arteaga</h4>
+                <h4 class="nombre-storyboard">Zambrano's Madness</h4>
             </div>
             <div class="bloque-imagen">
-                <img src="../img/storyboards/DA.png" alt="storyboard">
+                <img src="../../../../../img/storyboards/zambranos_madness/zm1.jpeg" alt="storyboard">
+            </div>
+            <div class="bloque-imagen">
+                <img src="../../../../../img/storyboards/zambranos_madness/zm2.jpeg" alt="storyboard">
+            </div>
+            <div class="bloque-imagen">
+                <img src="../../../../../img/storyboards/zambranos_madness/zm3.jpeg" alt="storyboard">
             </div>
         </div>
 
-        <div class="boceto">
-            <div class="bloque-nombre">
-                <h4 class="nombre-storyboard">Diego Reyes</h4>
-            </div>
-            <div class="bloque-imagen">
-                <img src="../img/storyboards/DR.png" alt="storyboard">
-            </div>
-        </div>
+        
 
     </div>
     
