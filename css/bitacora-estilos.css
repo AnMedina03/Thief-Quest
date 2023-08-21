@@ -153,6 +153,7 @@ img{
 
 .inspiracion-portada {
     width: 20rem;
+    justify-content: center;
 }
 
 a span.doc-link {
