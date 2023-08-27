@@ -61,7 +61,7 @@ function puntoD(){
                     Como se mencionó en la sección "Historia de Zambrano's Madness", un científico capturo a la iguana legendaria y experimentó con ella para sembrar
                     el caos en la ciudad. La misión del jugador (en este caso el "ladrón") es derrotar al Dr. Zambrano y a sus iguanas modificadas para salvar a la ciudad.
                     El Dr.Zambrano se encuentra resguardado en una catedral en el centro de la ciudad, la cual solo puede accederse al hallar 4 llaves/insignias que le permitan al ladrón 
-                    entrar. Para conseguir abrir la catedrá, el jugador deberá emprender un viaje por 4 sectores de la ciudad de Guayaquil:
+                    entrar. Para conseguir abrir la catedrál, el jugador deberá emprender un viaje por 4 sectores de la ciudad de Guayaquil:
                     <li style="text-align:justify">
                         El Estadio Capwell
                     </li>
