@@ -51,13 +51,13 @@ p, li {
     font-size: 1rem;
 }
 
-.tablero-info {
+.trailer-info {
     background-color: rgba(136, 38, 145, 0.512);
     border-radius: 1rem;
     padding: 1rem;
 }
 
-.piezas-tablero-info, .tablero-info-detalles {
+.piezas-trailer-info, .trailer-info-detalles {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

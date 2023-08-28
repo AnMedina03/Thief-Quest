@@ -137,11 +137,7 @@ img{
     flex-direction: row;
 }
 
-#Videos {
-    display: none;
-}
-
-#Prototipo {
+#Videos, #Info, #Gantt {
     display: none;
 }
 
