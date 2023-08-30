@@ -50,7 +50,7 @@ function puntoE(){
 
             <h3 class="text-white title-bg iguana-title">Prototipado</h3>
             <div style="display: flex;justify-content: center; margin: 1vh;">
-                <img src="../img/pruebas/prueba1.jpeg" alt="Tablero v1" width="100" height="105">
+                <img src="../../img/pruebas/prueba1.jpeg" alt="Tablero v1" width="100" height="105">
             </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;>
                 <div class="linea">
