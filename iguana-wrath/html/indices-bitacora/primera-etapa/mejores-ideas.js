@@ -17,7 +17,7 @@ function puntoB(){
                 <h4 class="nombre-storyboard">Guillermo Veintimilla</h4>
             </div>
             <div class="bloque-imagen-G">
-                <img src="../img/storyboards/GV.png" alt="storyboard">
+                <img src="../../img/storyboards/GV.png" alt="storyboard">
             </div>
         </div>
 
@@ -27,10 +27,10 @@ function puntoB(){
             </div>
             <div class="bloque-dos-imagenes">
                 <div class="bloque-imagen">
-                    <img src="../img/storyboards/AM.png" alt="storyboard">
+                    <img src="../../img/storyboards/AM.png" alt="storyboard">
                 </div>
                 <div class="bloque-imagen">
-                    <img src="../img/storyboards/AM2.png" alt="storyboard">
+                    <img src="../../img/storyboards/AM2.png" alt="storyboard">
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ function puntoB(){
                 <h4 class="nombre-storyboard">Diego Arteaga</h4>
             </div>
             <div class="bloque-imagen">
-                <img src="../img/storyboards/DA.png" alt="storyboard">
+                <img src="../../img/storyboards/DA.png" alt="storyboard">
             </div>
         </div>
 
@@ -49,7 +49,7 @@ function puntoB(){
                 <h4 class="nombre-storyboard">Diego Reyes</h4>
             </div>
             <div class="bloque-imagen">
-                <img src="../img/storyboards/DR.png" alt="storyboard">
+                <img src="../../img/storyboards/DR.png" alt="storyboard">
             </div>
         </div>
 

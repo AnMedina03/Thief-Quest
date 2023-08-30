@@ -22,8 +22,8 @@ function puntoF(){
                 </p>
             </div>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/Imagen2.png" alt="Manual v1" class="playtesting-element">
-                <img src="../img/pruebas/playtesting-zero/Imagen3.png" alt="Tablero v1" class="playtesting-element">
+                <img src="../../img/pruebas/playtesting-zero/Imagen2.png" alt="Manual v1" class="playtesting-element">
+                <img src="../../img/pruebas/playtesting-zero/Imagen3.png" alt="Tablero v1" class="playtesting-element">
             </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
@@ -40,7 +40,7 @@ function puntoF(){
             <br>
             <h3 class="text-white title-bg iguana-title">Problemas Encontrados</h3>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Prueba 0 - Escena 1" class="foto-playtesting">
+                <img src="../../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Prueba 0 - Escena 1" class="foto-playtesting">
             </div>
             <div class="puntos-clave"  style="padding: 1vh; margin: 1vh;">
                 <h5 style="color:var(--prim-ligth);">Primera prueba</h5>

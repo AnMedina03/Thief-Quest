@@ -137,7 +137,7 @@ img{
     flex-direction: row;
 }
 
-#Videos, #Info, #Gantt {
+#Videos, #Presentacion, #Gantt {
     display: none;
 }
 
@@ -173,6 +173,14 @@ a span.doc-link, a.doc-link {
     min-width: 10rem;
 }
 
+.playtesting-element-h1 {
+    padding: 1rem;
+    height: 20vw;
+    min-height: 10rem;
+    width: 10vw;
+    min-width: 5vw;
+}
+
 .playtesting-element-1 {
     padding: 1rem;
     width: 20vw;
@@ -182,6 +190,14 @@ a span.doc-link, a.doc-link {
 .foto-playtesting {
     padding: 1rem;
     width: 40vw;
+    min-width: 10rem;
+}
+
+.foto-playtesting-h1 {
+    padding: 1rem;
+    height: 30vw;
+    min-height: 20rem;
+    width: 20vw;
     min-width: 10rem;
 }
 

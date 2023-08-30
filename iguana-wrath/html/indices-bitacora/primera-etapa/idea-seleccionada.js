@@ -15,7 +15,7 @@ function puntoD(){
         <div class="container">
             
             <div class="fx-display fx-col gp-1">
-                <img src="../img/LogoGame.png" alt="Logo Thief's Quest: Iguana's Wrath" class="choosed-game-style">
+                <img src="../../img/LogoGame.png" alt="Logo Thief's Quest: Iguana's Wrath" class="choosed-game-style">
                 <h2 class="text-white title-bg text-align-center">Thief's Quest: Iguana's Wrath</h2>
             </div>
             <br>

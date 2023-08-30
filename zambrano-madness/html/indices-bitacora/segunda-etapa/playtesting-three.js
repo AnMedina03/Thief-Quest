@@ -7,7 +7,7 @@ function puntoCII(){
     regionContenido.innerHTML = `
     
     <div class="bloque-titulo">
-        <h2 class="titulo-seleccionado">PlayTesting 3</h2>
+        <h2 class="titulo-seleccionado">PlayTesting 4</h2>
     </div>
     
     
@@ -18,58 +18,81 @@ function puntoCII(){
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <p style="color:white;">Detalle de elementos usados:</p>
                 <p style="color:lightblue;">
-                Para el Playtesting 3 se empleó el siguiente tablero de juego con los siguientes elementos empleados en las fotos:
+                    Para el Playtesting Four se presentó una versión del juego un poco más desarrollada con los cambios realizados. Esto es una prueba de
+                    interacción y el diseño del juego (dibujos, audios, iluminación y mecánica):
+                </p>
+                <p style="color:lightblue;">
+                    <a href="juego/reglas.html">Descarga el juego</a>
                 </p>
             </div>
-            <div class="fx-display fx-col fx-nwp gp-1">
-                <img src="../img/pruebas/playtesting-tri/Imagen2.jpg" alt="Foto general de prueba" class="playtesting-element">
-                <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-two/Imagen1.png" alt="Manual v3" class="playtesting-element-1">
-                <img src="../img/pruebas/playtesting-two/Imagen5.jpg" alt="Manuales según Roles v2" class="playtesting-element-1">
-                <img src="../img/pruebas/playtesting-tri/Imagen1.png" alt="Elementos v3" class="playtesting-element-1">
-                <img src="../img/pruebas/playtesting-tri/Imagen3.png" alt="Tablero v3" class="playtesting-element-1">
-                <img src="../img/pruebas/playtesting-two/Imagen4.jpg" alt="Flujo de Juego v1" class="playtesting-element-1">
-                </div>
+            <div class="fx-display fx-fil fx-wp gp-1">
+                <img src="../../img/zambrano/PlayTesting4/Over.png" alt="Sprites" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting4/Demo.gif" alt="Sprites" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting4/ItemContainer.png" alt="Sprites" class="playtesting-element">
             </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                    Se utilizó el tablero de juego con un nuevo diseño formado con 12 horas A4, dicho tablero contenía la ubicación de las paradas ubicadas
-                    en los extremos del tablero pero con un ícono representativo para indicar que por ahí no se sale pero que ahí se coloca la parada, de
-                    modo que las reglas servirían únicamente para explicar cómo ubicar las paradas.
-                    El resto de elementos para jugar son los mismos.
+                        Se presentó una versión final de la beta del juego en la que se han añadido cambios en base a las tareas planificadas para la
+                        cuarta iteración del proyecto y las observaciones del tercer playtesting, cabe destacar que no se han
+                        aplicado todos los cambios puesto a que se dieron prioridad a las tareas por cumplir según la planificación,
+                        además de que ciertas tareas tomaron más tiempo de lo esperado, por lo que algunas tareas y cambios pendientes
+                        pasaron a las siguientes iteraciones.
+                        Las tareas para esta iteración eran:
                     </p>
-                </div>    
+                </div>
+                <li style="color:lightblue;">
+                Intro del juego integrado al inicio.
+                </li>
+                <li style="color:lightblue;">
+                Pantalla de GameOver.
+                </li>
+                <li style="color:lightblue;">
+                Daño de área por el Oppenheimer Criollo.
+                </li>
+                <li style="color:lightblue;">
+                Cool down a la Daga y al Oppenheimer.
+                </li>
+                <li style="color:lightblue;">
+                Interacción para conseguir el Oppenheimer.
+                </li>
+                <li style="color:lightblue;">
+                Estado del jugador entre escenas.
+                </li>
             </div>
             <br>
             <h3 class="text-white title-bg thief-title">Problemas Encontrados</h3>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-tri/playtesting3-prueba1.jpg" alt="Prueba 1 - Escena 1" class="foto-playtesting-1">
-                <img src="../img/pruebas/playtesting-tri/playtesting3-prueba2.jpg" alt="Prueba 1 - Escena 1" class="foto-playtesting-1">
+                <img src="../../img/zambrano/PlayTesting4/PlayTest1.png" alt="Prueba 0 - Escena 1" class="foto-playtesting-h1">
+                <img src="../../img/zambrano/PlayTesting4/PlayTest2.png" alt="Prueba 0 - Escena 1" class="foto-playtesting">
             </div>
-            <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
-                <p style="color:lightblue;">
-                    Esta vez no hubo mucho problema al realizar la asignación de roles y cómo ubicar los jugadores, pero si hubo problema durante la partida.
-                    <li>
-                        Ocurrió que un ladrón, luego de colisionar con otro y hacer efecto el intercambio de baldosas, quedaban uno encima de otro, moviéndose
-                        de un lado a otro juntos.
-                    </li>
-                    <li>
-                        Se identifico un EVENTO que no tiene regla, por ende es confuso de resolver durante el juego. Este evento consistía en que pasa si dos
-                        o más ladrones se encuentran con la iguana legendaria o una miniiguana.
-                    </li>
-                    <li>
-                        Los manuales tenían mucho texto para leer por lo que los usuarios les daba pereza volver a leer y no quisieron usar el flujo de juego. 
-                    </li>
-                </p>
+            <div class="puntos-clave"  style="padding: 1vh; margin: 1vh;">
+                <li style="color:lightblue;">
+                Menos enemigos por cada spawner y reducir el cool down.
+                </li>
+                <li style="color:lightblue;">
+                Detalles en las transiciones de la escena introductoria del juego.
+                </li>
+                <li style="color:lightblue;">
+                Iconos que corresponden a las armas pueden ser más pequeños.
+                </li> 
+                <li style="color:lightblue;">
+                Exige atención a todo lo que sucede en la batalla con el jefe final.
+                </li>
+                <div class="linea">
+                    <p style="color:lightblue;">
+                    <i>Revisar la sección de VIDEOS para más detalles</i>
+                    </p>
+                </div>
             </div>
             <br>
-            <h3 class="text-white title-bg thief-title">Retroalimentación y Cambios</h3>
+            <h3 class="text-white title-bg thief-title">Retroalimentación y Futuros Cambios</h3>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                        Analizando los puntos mencionados en la sección anterior, se decidió agregar una nueva regla para resolver ese evento e identificar
-                        futuros problemas que esa regla pueda traer. También toca resumir más las reglas para que los manuales no se vean muy extensos.
+                        Para una más versión desarrollada del juego se plantea agregar un sistema para recuperar vida, ya sea derrotando enemigos o encontrar puntos
+                        para recuperar vida. Otros de los cambios relevantes será incrementar el tamaño del mapa y hacer más dinámico al jefe, además de agregar
+                        personajes que puedan dar instrucciones o historia del juego.
                     </p>
                 </div>
             </div>

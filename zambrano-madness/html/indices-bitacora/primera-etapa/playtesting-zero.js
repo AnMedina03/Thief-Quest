@@ -7,7 +7,7 @@ function puntoF(){
     regionContenido.innerHTML = `
     
     <div class="bloque-titulo">
-        <h2 class="titulo-seleccionado">PlayTesting Zero</h2>
+        <h2 class="titulo-seleccionado">PlayTesting 1</h2>
     </div>
     
     
@@ -18,74 +18,102 @@ function puntoF(){
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <p style="color:white;">Detalle de elementos usados:</p>
                 <p style="color:lightblue;">
-                Para el Playtesting Zero se empleó el siguiente tablero de juego con los siguientes elementos empleados en las fotos:
+                    Para el Playtesting One se presentó una versión muy básica del juego puesto a que aún seguía en desarrollo. Esto es una prueba de movimiento y
+                    el diseño del juego (dibujos, audios, iluminación y mecánica):
+                </p>
+                <p style="color:lightblue;">
+                    <a href="juego/reglas.html">Descarga el juego</a>
                 </p>
             </div>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/Imagen2.png" alt="Manual v1" class="playtesting-element">
-                <img src="../img/pruebas/playtesting-zero/Imagen3.png" alt="Tablero v1" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/Recursos.png" alt="Recursos en Unity" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/MapaArea.png" alt="Mapa de Areas" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/Sprites.png" alt="Sprites" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/Generadores.png" alt="Sprites" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/Puerta.png" alt="Sprites" class="playtesting-element">
             </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
                 <div class="linea">
                     <p style="color:lightblue;">
-                    Se utilizó un tablero de juego formado por 6 hojas A4, dicho tablero contenía la ubicación de las paradas ubicadas en los extremos del tablero,
-                    todas manejando un mismo color. A su vez, se tenían un conjunto de baldosas con los caminos trazados para indicar la movilidad de los jugadores.
-                    Por otro lado, respecto a las fichas de cada jugador (ladrones e iguanas) estas se representaron por medio de papeles enrollados puesto que no se tenía 
-                    todavía un diseño fijo para los personajes. Respecto al huevo dorado, se empleó un borrador para representarlo durante la primera versión de las pruebas
-                    entre el equipo de trabajo. Por otro lado, se tuvo una serie de cartas impresas que representaron las maldiciones así como también se imprimió una primera versión
-                    de las reglas de alrededor de 2 páginas que contenía las reglas del movimiento e interacciones de los jugadores ladrones y de las iguanas.
+                        Se presentó una versión del juego en la que el jugador solo podía explorar el mapa creado, escuchar la música de fondo y observar el efecto
+                        de oscuridad. Lo mencionado en general son los resultados de las tareas planificadas para la primera iteración del proyecto, los cuáles eran:
                     </p>
-                </div>    
+                </div>
+                <li style="color:lightblue;">
+                    Diseño de sprites.
+                </li>
+                <li style="color:lightblue;">
+                    Implementación de sonidos (SFX).
+                </li>
+                <li style="color:lightblue;">
+                    Implementación de música de fondo (BGM).
+                </li>
+                <li style="color:lightblue;">
+                    Movimiento de objetos.
+                </li>
+                <li style="color:lightblue;">
+                Animación de objetos.
+                </li>
+                <li style="color:lightblue;">
+                    Desarrollo de entorno (mapas).
+                </li>
+                <li style="color:lightblue;">
+                Interacción con entorno (colisiones con obstáculos y muros limitantes)
+                </li>
+                <li style="color:lightblue;">
+                    Iluminación de entorno y objetos
+                </li>
             </div>
             <br>
             <h3 class="text-white title-bg iguana-title">Problemas Encontrados</h3>
             <div class="fx-display fx-fil fx-wp gp-1">
-                <img src="../img/pruebas/playtesting-zero/playtesting0-prueba1.jpeg" alt="Prueba 0 - Escena 1" class="foto-playtesting">
+                <img src="../../img/zambrano/PlayTesting1/PlayTest1.png" alt="Prueba 0 - Escena 1" class="foto-playtesting">
             </div>
             <div class="puntos-clave"  style="padding: 1vh; margin: 1vh;">
-                <h5 style="color:var(--prim-ligth);">Primera prueba</h5>
                 <li style="color:lightblue;">
-                    Con la primera versión de las reglas (antes de lanzarlas a pruebas con usuarios externos), los ladrones no comprendían claramente como llegar a su
-                    posición inicial. Estaban mal distribuidos y eran muy ambiguas.
+                    Se hizo hincapié en el hecho de que debe proporcionarse información de cuantos objetos restantes debe destruir/recolectar.
                 </li>
                 <li style="color:lightblue;">
-                    La movilidad de la iguana era "<b>AUTOMÁTICA</b>" pero existían problemas que eso ocurra porque no había algo o alguien específico que la moviera, resultando 
-                    en movimientos aleatorios que al final solo permitían que los ladrones pudieran escapar sin problemas y ganar, perdiendo así (la iguana) su relevancia en el juego.
-                </li>
-                <br>
-                <h5 style="color:var(--prim-ligth);">Segunda prueba</h5>
-                <li style="color:lightblue;">
-                    Ya se tenían armadas las reglas y los personajes, pero aún esas reglas eran suceptibles a cambios debido a que eran demasiado ambigua, a tal punto que nuestro equipo
-                    no sabía como reaccionar a ciertos eventos.
+                    Se podría implementar rutas alternativas en el laberinto u obstáculos en el mapa.
                 </li>
                 <li style="color:lightblue;">
-                    Cómo el jugador de la iguana se podía mover y debía esperar a que robaran el huevo para moverse.
-                </li>
-                <br>
-                <h5 style="color:var(--prim-ligth);">Tercera prueba</h5>
-                <li style="color:lightblue;">
-                    El jugador de la iguana se movía muy lento, ya sea con las miniiguanas o con la iguana legendaria.
-                </li>
-                <li style="color:lightblue;">
-                    Las reglas para el rol de la iguana no eran muy claras.
+                    Aumentar la cantidad de enemigos generados.
                 </li> 
+                <li style="color:lightblue;">
+                    Importante: Los sonidos fueron guía.
+                </li> 
+                <li style="color:lightblue;">
+                    Aspectos adicionales: Revisar posicionamiento de cámara y tamaño/intensidad del foco de la linterna.
+                </li>
+                <div class="linea">
+                    <p style="color:lightblue;">
+                    <i>Revisar la sección de VIDEOS para más detalles</i>
+                    </p>
+                </div>
             </div>
             <br>
             <h3 class="text-white title-bg iguana-title">Retroalimentación y Cambios</h3>
+            <div class="fx-display fx-fil fx-wp gp-1">
+                <img src="../../img/zambrano/PlayTesting1/cambio1.png" alt="Cambio 1 - PlayTest 1" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/cambio2.png" alt="Cambio 2 - PlayTest 1" class="playtesting-element">
+                <img src="../../img/zambrano/PlayTesting1/cambio3.png" alt="Cambio 3 - PlayTest 1" class="playtesting-element">
+            </div>
             <div class="puntos-clave" style="padding: 1vh; margin: 1vh;">
-                <div class="linea">
-                    <p style="color:lightblue;">
-                        Observando los evidentes problemas, agregamos una flecha en la parte superior izquierda del tablero para indicar por donde deben comenzar
-                        el conteo de las paradas o de las posiciones de los jugadores, además de ya crear los personajes para comenzar a probar como debía ser.
-                        <br>
-                        Muy aparte de la parte visual, cambiamos la funcionalidad de la iguana, en vez de que sea un <b>NPC</b>, lo pasamos a que sea un personaje jugable. 
-                        Habían partes de las reglas que no eran muy claras y hacían falta agregar otras para poder aclarar muchos puntos, entre esos la jugabilidad del nuevo 
-                        personaje de la iguana.
-                        <br>
-                        Además, se implementaron a los nuevos personajes para el jugador de la iguana, los cuáles son las miniiguanas. Mientras la iguana principal permanece
-                        esperando, este jugador podrá mover las miniiguanas para atrapar a los demás jugadores (ladrones).
-                    </p>
-                </div>
+                <li style="color:lightblue;">
+                    Ajustar el posicionamiento de la cámara para que sea más visible la zona del laberinto.
+                </li>
+                <li style="color:lightblue;">
+                    Ajustar el posicionamiento de la cámara para que sea más visible la zona del laberinto.
+                </li>
+                <li style="color:lightblue;">
+                    Adición de mecánica de ataque para destruir los generadores y enemigos - junto con información visual de la cantidad de generadores.
+                </li>
+                <li style="color:lightblue;">
+                    Adición de elementos de sonido en animaciones y sprites nuevos.
+                </li> 
+                <li style="color:lightblue;">
+                    Ajustar elementos visuales para que sean "responsive"
+                </li>
             </div>
         </div>
     </section>
